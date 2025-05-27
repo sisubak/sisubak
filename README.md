@@ -25,7 +25,6 @@
 ### 🎮 Beyond the Code
 - ⚡ Current obsession: AI-driven game mechanics
 - 🌐 Fluent in Russian & English
-- 🏆 Proudest creation: [Project Name] - [Brief Description]
 
 ---
 
