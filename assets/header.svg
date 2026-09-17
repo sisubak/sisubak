@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 220" width="820" height="220" role="img" aria-label="real_ueh terminal header">
+  <style>
+    .mono{font-family:ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace}
+    .prompt{fill:#DC143C;font-size:16px;font-weight:700}
+    .txt{fill:#c9d1d9;font-size:16px}
+    .dim{fill:#6b7280;font-size:12px}
+    .name{fill:#DC143C;font-size:36px;font-weight:800;letter-spacing:2px}
+    .accent{fill:#DC143C;font-size:16px;font-weight:700}
+  </style>
+  <rect fill="#0d1117" width="820" height="220" rx="10"/>
+  <rect fill="none" stroke="#DC143C" stroke-opacity=".45" stroke-width="1" x="0.5" y="0.5" width="819" height="219" rx="10"/>
+  <circle fill="#ff5f56" cx="20" cy="22" r="6"/>
+  <circle fill="#ffbd2e" cx="40" cy="22" r="6"/>
+  <circle fill="#27c93f" cx="60" cy="22" r="6"/>
+  <text class="mono dim" x="410" y="26" text-anchor="middle">real_ueh@github — zsh</text>
+
+  <text class="mono" x="24" y="72">
+    <tspan class="prompt">$</tspan><tspan class="txt" dx="8">whoami</tspan>
+  </text>
+
+  <defs>
+    <clipPath id="rev1">
+      <rect x="0" y="80" width="0" height="60">
+        <animate attributeName="width" from="0" to="820" begin="0.3s" dur="1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="rev2">
+      <rect x="0" y="140" width="0" height="80">
+        <animate attributeName="width" from="0" to="820" begin="1.6s" dur="2s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rev1)">
+    <text class="mono name" x="24" y="118">real_ueh</text>
+  </g>
+
+  <g clip-path="url(#rev2)">
+    <text class="mono" x="24" y="160">
+      <tspan class="prompt">$</tspan><tspan class="txt" dx="8">cat bio.txt</tspan>
+    </text>
+    <text class="mono txt" x="24" y="190">
+      <tspan>reverse engineering</tspan>
+      <tspan class="accent" dx="6">/</tspan>
+      <tspan dx="6">low-level</tspan>
+      <tspan class="accent" dx="6">/</tspan>
+      <tspan dx="6">DDNet</tspan>
+    </text>
+  </g>
+
+  <rect x="222" y="176" width="10" height="16" fill="#DC143C">
+    <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite" begin="3.7s"/>
+  </rect>
+</svg>
